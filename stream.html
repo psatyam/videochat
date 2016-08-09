@@ -100,8 +100,8 @@ function stream(form) {
 	streamName = form.streamname.value || Math.floor(Math.random()*100)+'';
 	var phone = window.phone = PHONE({
 	    number        : streamName, // listen on username line else random
-	    publish_key   : 'pub-c-85e82e94-2521-4570-9bf1-f9049ca69433', // Your Pub Key
-	    subscribe_key : 'sub-c-6e10187e-502b-11e6-a1d5-0619f8945a4f', // Your Sub Key
+	    publish_key   : 'pub-c-561a7378-fa06-4c50-a331-5c0056d0163c', // Your Pub Key
+	    subscribe_key : 'sub-c-17b7db8a-3915-11e4-9868-02ee2ddab7fe', // Your Sub Key
 	    oneway        : true,
 	    broadcast     : true,
 		ssl : (('https:' == document.location.protocol) ? true : false)
@@ -133,8 +133,8 @@ function watch(form){
 	var num = form.number.value;
 	var phone = window.phone = PHONE({
 	    number        : "Viewer" + Math.floor(Math.random()*100), // listen on username line else random
-	    publish_key   : 'pub-c-85e82e94-2521-4570-9bf1-f9049ca69433', // Your Pub Key
-	    subscribe_key : 'sub-c-6e10187e-502b-11e6-a1d5-0619f8945a4f', // Your Sub Key
+	    publish_key   : 'pub-c-561a7378-fa06-4c50-a331-5c0056d0163c', // Your Pub Key
+	    subscribe_key : 'sub-c-17b7db8a-3915-11e4-9868-02ee2ddab7fe', // Your Sub Key
 	    oneway        : true,
 		ssl : (('https:' == document.location.protocol) ? true : false)
 	});
