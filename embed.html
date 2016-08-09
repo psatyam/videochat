@@ -52,8 +52,8 @@ var stream = urlargs.stream;
 
 var phone = window.phone = PHONE({
     number        : "EmbedViewer" + Math.floor(Math.random()*100), // listen on username line else random
-    publish_key   : 'pub-c-561a7378-fa06-4c50-a331-5c0056d0163c', // Your Pub Key
-    subscribe_key : 'sub-c-17b7db8a-3915-11e4-9868-02ee2ddab7fe', // Your Sub Key
+    publish_key   : 'pub-c-85e82e94-2521-4570-9bf1-f9049ca69433', // Your Pub Key
+    subscribe_key : 'sub-c-6e10187e-502b-11e6-a1d5-0619f8945a4f', // Your Sub Key
     oneway        : true,
 });
 var ctrl = window.ctrl = CONTROLLER(phone);
@@ -89,16 +89,5 @@ function handleNoStream(){
 }
 
 }());
-
-</script>
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
-		Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	ga('create', 'UA-46933211-3', 'auto');
-	ga('send', 'pageview');
 
 </script>
