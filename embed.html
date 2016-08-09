@@ -55,6 +55,7 @@ var phone = window.phone = PHONE({
     publish_key   : 'pub-c-85e82e94-2521-4570-9bf1-f9049ca69433', // Your Pub Key
     subscribe_key : 'sub-c-6e10187e-502b-11e6-a1d5-0619f8945a4f', // Your Sub Key
     oneway        : true,
+	ssl : (('https:' == document.location.protocol) ? true : false)
 });
 var ctrl = window.ctrl = CONTROLLER(phone);
 ctrl.ready(function(){
